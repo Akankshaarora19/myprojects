@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form name="login_form" action="list.html" method="get">
+    <fieldset>
+        <legend align="center"><b>Student Detail Form</b></legend>
+        <br>
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" value="" placeholder="Enter your name" maxlength="20" size="50" autofocus autocomplete="on"> <br><br>
+
+    <label for="pass">Password</label>
+    <input type="password" name="pass" value="" placeholder="Enter your password" maxlength="8" size="30"><br><br>
+
+    <label for="email">Email Id</label>
+    <input type="email" name="email" value="" placeholder="Enter your email id" disabled><br><br>
+
+    <label for="date">DOB</label>
+    <input type="date" name="date" value="" min="2020-12-31" max="2023-01-01"><br><br>
+
+    <label for="date&time">DOB</label>
+    <input type="datetime-local" name="date&time" value="" min="2020-12-01" max="2023-01-01"><br><br>
+
+    <label for="gender">Gender</label>
+    <input type="radio" name="radio_btn">Male
+    <input type="radio" name="radio_btn">Female
+    <br><br>
+
+    <label for="hobbies">Hobbies</label>
+    <input type="checkbox" name="box1">Sports
+    <input type="checkbox" name="box2">Music
+    <input type="checkbox" name="box3">Dance
+    <input type="checkbox" name="box4">Reading
+    <br><br>
+
+    <label for="address">Address</label>
+    <textarea rows="5" cols="20"></textarea>
+
+    <br><br>
+
+    <label for="state">State</label>
+    <select name="state">
+        <option value="0">--Select State--</option>
+        <option value="1" >Haryana</option>
+        <option value="2">UP</option>
+        <option value="3">MP</option>
+        <option value="4">AP</option>
+        <option value="5">Goa</option>
+        <option value="6">Maharastra</option>
+    </select>
+
+    <br>
+    <br>
+    <label for="photo">Upload your resume</label>
+    <input type="file" name="photo">
+    <br> 
+    <br>
+    <input type="submit" name="btn1" value="Submit">
+    <input type="reset" name="btn2" value="Reset">
+
+</fieldset>
+</form>
+</body>
+</html>
